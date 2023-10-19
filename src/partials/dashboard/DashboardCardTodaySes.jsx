@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LineChart from '../../charts/LineChart01';
-import Icon from '../../images/icon-02.svg';
+import Icon from '../../images/icon-04.svg';
 import EditMenu from '../../components/DropdownEditMenu';
 
 // Import utilities
@@ -51,7 +51,7 @@ function DashboardCardTodaySes() {
       <div className="px-5 pt-5">
         <header className="flex justify-between items-start mb-2">
           {/* Icon */}
-          <img src={Icon} width="32" height="32" alt="Icon 02" />
+          <img src={Icon} width="32" height="32" alt="Icon 04" />
           {/* Menu button */}
           <EditMenu align="right" className="relative inline-flex">
             <li>

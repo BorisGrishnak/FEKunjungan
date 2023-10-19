@@ -11,7 +11,7 @@ import './charts/ChartjsConfig';
 
 // Import pages
 import Dashboard from './pages/Dashboard';
-import Ruangan from './pages/Ruangan';
+import Collaboration from './pages/ruangan/Collaboration';
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
-        <Route exact path="/ruangans" element={<Ruangan />} />
+        <Route exact path="/ruangan/collaboration" element={<Collaboration />} />
         {/* <Route exact path="/peminjaman" element={<Ruangan />} /> */}
         {/* <Route exact path="/ruangan" element={<Ruangan />} /> */}
       </Routes>
