@@ -4,6 +4,7 @@ import Header from '../../partials/Header'
 import Sidebar from '../../partials/Sidebar'
 import Banner from '../../partials/Banner';
 import RuanganCard01 from '../../partials/ruangan/RuanganCard01'
+import RuanganCard02 from '../../partials/ruangan/RuanganCard02';
 
 export default function Ruangan() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -27,6 +28,8 @@ export default function Ruangan() {
             <div className="grid grid-cols-12 gap-6">
 
               <RuanganCard01 />
+
+              <RuanganCard02 />
 
             </div>
 
