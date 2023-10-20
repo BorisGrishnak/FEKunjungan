@@ -51,7 +51,7 @@ const data = [
     {
         id: 1,
         namaRuang: 'Ruang Collaboration',
-        availability: 'V',
+        availability: 'Dipesan',
         dipesan: 'Suroto',
         // aksi: <Button>a</Button>
     }

@@ -48,14 +48,19 @@ const columns = [
     },
 ];
 
-const [available, setAvailable] = useState(0);
+const [availablebtn, setAvailableBtn] = useState(0);
+const [available, setAvailable] = useState('Reserviert');
+const [pesan, setPesan] = useState('Suroto');
 
 const handleClick = () => {
-    setAvailable(1)
+    setAvailableBtn(1)
+    setAvailable('Frei')
+    setPesan('Belum ada tamu')
 }
 
+
 function switchBtn() {
-    if (available == 0) {
+    if (availablebtn == 0) {
         return <Button color="red" size="sm" className="rounded-full" onClick={handleClick}>Switch</Button>
     } else {
         return <Button color="green" size="sm" className="rounded-full" disabled={true}>Switch</Button>
@@ -66,8 +71,8 @@ const data = [
     {
         id: 1,
         namaRuang: 'Ruang Collaboration',
-        availability: 'Dipesan',
-        dipesan: 'Suroto',
+        availability: available,
+        dipesan: pesan,
         aksi: switchBtn()
     }
 ]
