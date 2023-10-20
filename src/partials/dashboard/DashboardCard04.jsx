@@ -24,7 +24,7 @@ function DashboardCard04() {
       {
         label: 'Indirect',
         data: [
-          4900, 2600, 5350, 0, 0, 6660, 4876
+          4900, 0, 0, 2600, 5350, 6660, 4876
         ],
         backgroundColor: tailwindConfig().theme.colors.indigo[500],
         hoverBackgroundColor: tailwindConfig().theme.colors.indigo[600],
