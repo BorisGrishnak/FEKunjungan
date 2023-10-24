@@ -85,28 +85,28 @@ const handleCancel = () => {
 
 function approval() {
     if (approve == 0) {
-        return <Button color="green" style={{width: 80, fontSize: 8, marginInlineEnd: 1}} size="sm" className="rounded-full" onClick={handleClick}>Approve</Button>
+        return <Button color="green" style={{width: 80, fontSize: 10, marginInlineEnd: 1}} size="sm" className="rounded-full" onClick={handleClick}>Approve</Button>
     } 
     if (approve == 2) {
-        return <Button color="grey" style={{width: 80, fontSize: 8, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>-</Button>
+        return <Button color="grey" style={{width: 80, fontSize: 10, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>-</Button>
     }else {
-        return <Button color="green" style={{width: 80, fontSize: 8, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>Approved</Button>
+        return <Button color="green" style={{width: 80, fontSize: 10, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>Approved</Button>
     }
 }
 
 function cancel() {
     if (canceled == 0) {
-        return <Button color="red" style={{width: 80, fontSize: 8, marginInlineEnd: 1}} size="sm" className="rounded-full" onClick={handleCancel}>Cancel</Button>
+        return <Button color="red" style={{width: 80, fontSize: 10, marginInlineEnd: 1}} size="sm" className="rounded-full" onClick={handleCancel}>Cancel</Button>
     } 
     if (canceled == 2) {
-        return <Button color="grey" style={{width: 80, fontSize: 8, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>-</Button>
+        return <Button color="grey" style={{width: 80, fontSize: 10, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>-</Button>
     }else {
-        return <Button color="red" style={{width: 80, fontSize: 8, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>Cancelled</Button>
+        return <Button color="red" style={{width: 80, fontSize: 10, marginInlineEnd: 1}} size="sm" className="rounded-full" disabled={true}>Cancelled</Button>
     }
 }
 
 const detail = () => {
-    return <Button color="amber" style={{width: 80, fontSize: 8, marginInlineEnd: 1}} size="sm" className="rounded-full" onClick={handleNavigate}>Detail</Button>
+    return <Button color="amber" style={{width: 80, fontSize: 10, marginInlineEnd: 1}} size="sm" className="rounded-full" onClick={handleNavigate}>Detail</Button>
 }
 
 const data = [
